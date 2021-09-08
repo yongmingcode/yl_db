@@ -1,0 +1,107 @@
+{
+    "title": "DB",
+    "description": "DB",
+    "author": "yongming",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "direction" : "ltr",
+    "root": ".",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    },
+    "links": {
+        "sidebar": {
+            "满月弓主页": "https://yongmingcode.github.io/yl_code/"
+        }
+    },
+    "plugins": [
+        "github",
+        "mermaid-gb3",
+        "-lunr", 
+        "-search", 
+        "search-plus",
+        "splitter",
+        "-sharing", 
+        "sharing-plus",
+        "expandable-chapters-small",
+        "anchor-navigation-ex",
+        "edit-link",
+        "copy-code-button",
+        "chart",
+        "favicon-plus",
+        "donate",
+        "tbfed-pagefooter",
+        "github-buttons",
+        "favicon-absolute"
+    ],
+    "pluginsConfig": {
+        "favicon-absolute":{
+            "favicon": "/gong.ico",
+            "appleTouchIconPrecomposed152": "/gong.png"
+        },
+        "github": {
+          "url": "https://github.com/yongmingcode/yl_java"
+        },
+        "sharing": {
+           "douban": false,
+           "facebook": false,
+           "google": false,
+           "hatenaBookmark": false,
+           "instapaper": false,
+           "line": false,
+           "linkedin": false,
+           "messenger": false,
+           "pocket": false,
+           "qq": true,
+           "qzone": false,
+           "stumbleupon": false,
+           "twitter": false,
+           "viber": false,
+           "vk": false,
+           "weibo": false,
+           "whatsapp": false,
+           "all": [
+               "facebook", "google", "twitter",
+               "weibo", "instapaper", "linkedin",
+               "pocket", "stumbleupon"
+           ]
+       },
+       "edit-link": {
+          "base": "https://github.com/yongmingcode/yl_java/blob/master",
+          "label": "编辑"
+        },
+        "chart": {
+          "type": "c3"
+        },
+        "output": "_book",
+        "donate": {
+          "wechat": "https://yongmingcode.github.io/yl_code/images/wechat.png",
+          "alipay": "https://yongmingcode.github.io/yl_code/images/alipay.png",
+          "title": "",
+          "button": "赏",
+          "alipayText": "支付宝",
+          "wechatText": "微信"
+        },
+        "tbfed-pagefooter": {
+          "copyright":"&copy yongmingcode",
+          "modify_label": "文件修订时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github-buttons": {
+          "buttons": [
+            {
+              "user": "yongmingcode",
+              "repo": "yl_code", 
+              "type": "star",
+              "count": false,
+              "size": "small"
+            }
+          ]
+        }
+    },
+    "styles": {
+      "website": "styles/website.css"
+    }
+}
